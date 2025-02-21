@@ -125,20 +125,20 @@ console.log(notes);
 //Ajouter un coefficient suivant les règles suivantes :
 //mettre un coefficient de 0.5 pour les notes entre 0 et 5 (non inclus)
 
-notes = 3
-let notesAvecCoef = (notes * 0.5)
+notes = 3;
+let notesAvecCoef = (notes * 0.5);
 console.log(notesAvecCoef);
 
 //mettre un coefficient de 1.1 pour les notes entre 5 et 10 (inclus)
 
-notes = 8
-let notesAvecCoef1 = (notes * 1.1)
+notes = 8;
+let notesAvecCoef1 = (notes * 1.1);
 console.log(notesAvecCoef1);
 
 //Si le nombre de notes en dessous de 10 est supérieur à plus de la moitié des notes
 //appliquer un coefficient de 1.3 aux notes supérieures à 10 (non inclus)
-notes = 20
-let notesAvecCoef2 = (notes *1.3)
+notes = 20;
+let notesAvecCoef2 = (notes *1.3);
 console.log(notesAvecCoef2);
 
 
